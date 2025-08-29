@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Workbench\\Sistema-PowerLab\\PowerLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|C:\\Users\\user\\Desktop\\Workbench\\Sistema-PowerLab\\PowerLab\\PowerLab\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|solutionrelative:PowerLab\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 153,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workbench\\Sistema-PowerLab\\PowerLab\\PowerLab\\main.cpp",
+              "RelativeDocumentMoniker": "PowerLab\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workbench\\Sistema-PowerLab\\PowerLab\\PowerLab\\main.cpp",
+              "RelativeToolTip": "PowerLab\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-29T03:38:11.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
