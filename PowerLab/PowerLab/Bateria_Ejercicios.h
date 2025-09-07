@@ -77,7 +77,6 @@ public:
 					for (int j = i; j < cant - 1; j++) {
 						vec[j] = vec[j + 1];
 					}
-
 					vec[cant - 1] = nullptr; 
 					cant--; 
 					return true;
@@ -85,6 +84,17 @@ public:
 			}
 		}
 		return false;
+	}
+
+
+	// Mostrar Rutina
+	string toString() {
+		stringstream mostrar;
+		mostrar << "<<============ EJERCICIOS DE " << vec[0]->getAreaDeCuerpo() << " ===========>>" << endl;
+		for (int i = 0; i < cant; i++) {
+			mostrar << "Ejercicio # " << i + 1 << ": " << vec[i]->getNombreEjercicio() << endl;
+		}
+		return mostrar.str();
 	}
 
 };

@@ -130,6 +130,7 @@
     <ClInclude Include="Ejercicio.h" />
     <ClInclude Include="Especialidad.h" />
     <ClInclude Include="Instructor.h" />
+    <ClInclude Include="Rutina.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

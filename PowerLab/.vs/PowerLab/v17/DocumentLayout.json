@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Rutina.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|solutionrelative:PowerLab\\Rutina.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Bateria_Ejercicios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|solutionrelative:PowerLab\\Bateria_Ejercicios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Ejercicio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|solutionrelative:PowerLab\\Ejercicio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Especialidad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|solutionrelative:PowerLab\\Especialidad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Instructor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9F763E67-E6BD-4EA3-B990-21274EA5B493}|PowerLab\\PowerLab.vcxproj|solutionrelative:PowerLab\\Instructor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 153,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +50,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ejercicio.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Ejercicio.h",
+              "RelativeDocumentMoniker": "PowerLab\\Ejercicio.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Ejercicio.h",
+              "RelativeToolTip": "PowerLab\\Ejercicio.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-07T21:11:19.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Rutina.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Rutina.h",
+              "RelativeDocumentMoniker": "PowerLab\\Rutina.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Rutina.h",
+              "RelativeToolTip": "PowerLab\\Rutina.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-07T21:11:06.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bateria_Ejercicios.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Bateria_Ejercicios.h",
+              "RelativeDocumentMoniker": "PowerLab\\Bateria_Ejercicios.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Bateria_Ejercicios.h",
+              "RelativeToolTip": "PowerLab\\Bateria_Ejercicios.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-07T19:18:12.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Especialidad.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Especialidad.h",
+              "RelativeDocumentMoniker": "PowerLab\\Especialidad.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Especialidad.h",
+              "RelativeToolTip": "PowerLab\\Especialidad.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-07T18:48:33.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Instructor.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Instructor.h",
               "RelativeDocumentMoniker": "PowerLab\\Instructor.h",
               "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\Instructor.h",
               "RelativeToolTip": "PowerLab\\Instructor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-07T05:34:22.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Gimnasio\\Sistema-PowerLab\\PowerLab\\PowerLab\\main.cpp",
               "RelativeDocumentMoniker": "PowerLab\\main.cpp",
@@ -55,8 +123,7 @@
               "RelativeToolTip": "PowerLab\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-29T03:38:11.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T03:38:11.806Z"
             }
           ]
         }
