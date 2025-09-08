@@ -127,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bateria_Ejercicios.h" />
+    <ClInclude Include="Cliente.h" />
     <ClInclude Include="Ejercicio.h" />
     <ClInclude Include="Especialidad.h" />
     <ClInclude Include="Instructor.h" />

@@ -1,5 +1,8 @@
 #pragma once
 #include "Especialidad.h"
+#include "Cliente.h"
+
+class Cliente;
 
 class Instructor {
 private:
@@ -9,14 +12,20 @@ private:
 	string correo;
 	string nacimiento;
 	Especialidad** especialidades;
+	Cliente** clientes;
 	int cant;
 	int tam;
+
+	int cantClientes;
 public:
 	Instructor() : 
 		cedula(""), nombre(""), telefono(""), correo(""), nacimiento(""), tam(10), cant(0) {
 		especialidades = new Especialidad*[tam];
-
-		for (int i = 0; i < tam; i++) especialidades = nullptr;
+		clientes = new Cliente * [10];
+		for (int i = 0; i < tam; i++) {
+			especialidades[i] = nullptr;
+			clientes[i] = nullptr;
+		}
 	}
 
 	Instructor(string c, string n, string t, string co, string na, int ta) 
@@ -81,7 +90,7 @@ public:
 				}
 
 
-				especialidades[cant + 1] = nullptr;
+				especialidades[cant - 1] = nullptr;
 				cant--;
 				return true;
 			}
@@ -90,4 +99,51 @@ public:
 	}
 
 
+	// Metodos CRUD Clientes
+	bool agregarCliente(Cliente* cliente) {
+		if (cantClientes < tam) {
+			clientes[cantClientes++] = cliente;
+			return true;
+		}
+		return false;
+	}
+
+	Cliente* buscarClientePorCedula(string c) {
+		if (cantClientes == 0) return nullptr;
+		for (int i = 0; i < cantClientes; i++) {
+			if (clientes[i]->getCedula() == c) {
+				return clientes[i];
+			}
+		}
+		return nullptr;
+	}
+
+	bool actualizarCliente(Cliente* nuevo, string c) {
+		if (cantClientes == 0) return false;
+		for (int i = 0; i < cantClientes; i++) {
+			if (clientes[i]->getCedula() == c) {
+				clientes[i] = nuevo;
+				return true;
+			}
+		}
+		return false;
+	}
+
+	bool eliminarCliente(string c) {
+		if (cantClientes == 0) return false;
+		for (int i = 0; i < cantClientes; i++) {
+			if (clientes[i]->getCedula() == c) {
+				delete clientes[i];  // liberamos memoria
+
+				for (int j = i; j < cantClientes - 1; j++) {
+					clientes[j] = clientes[j + 1];
+				}
+
+				clientes[cantClientes - 1] = nullptr;
+				cantClientes--;
+				return true;
+			}
+		}
+		return false;
+	}
 };
