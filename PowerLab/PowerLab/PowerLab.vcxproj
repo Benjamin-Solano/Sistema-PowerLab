@@ -131,6 +131,8 @@
     <ClInclude Include="Ejercicio.h" />
     <ClInclude Include="Especialidad.h" />
     <ClInclude Include="Instructor.h" />
+    <ClInclude Include="MedidaCorporal.h" />
+    <ClInclude Include="Reporte.h" />
     <ClInclude Include="Rutina.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
